@@ -8,8 +8,8 @@ The model for an individual landmark.
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
-    var id: Int
+struct Landmark: Hashable, Codable, Identifiable {
+    var id: Int     // <-- Required by Identifiable protocol. 
     var name: String
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
