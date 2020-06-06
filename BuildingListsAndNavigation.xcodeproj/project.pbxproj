@@ -33,6 +33,7 @@
 		DC460B4B248A99F100F13994 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460B4A248A99F100F13994 /* LandmarkRow.swift */; };
 		DC460B4D248A9C4C00F13994 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460B4C248A9C4C00F13994 /* LandmarkList.swift */; };
 		DC460B4F248AB22600F13994 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC460B4E248AB22600F13994 /* charleyrivers.jpg */; };
+		DC460B51248AB59D00F13994 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460B50248AB59D00F13994 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		DC460B4A248A99F100F13994 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		DC460B4C248A9C4C00F13994 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DC460B4E248AB22600F13994 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		DC460B50248AB59D00F13994 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		FB75835CADF255844DAD0DAD /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 			children = (
 				DC460B4A248A99F100F13994 /* LandmarkRow.swift */,
 				DC460B4C248A9C4C00F13994 /* LandmarkList.swift */,
+				DC460B50248AB59D00F13994 /* UserData.swift */,
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
@@ -275,6 +278,7 @@
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				DC460B4B248A99F100F13994 /* LandmarkRow.swift in Sources */,
+				DC460B51248AB59D00F13994 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
